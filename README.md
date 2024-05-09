@@ -2,9 +2,9 @@
 
 Включає:
 
-- [Elasticsearch][elasticsearch]
-- [Fluentd][fluentd]
-- [Kibana][kibana]
+- Elasticsearch
+- Fluentd
+- Kibana
 
 
 ## Запуск EFK стеку
@@ -13,9 +13,10 @@
 
 На вашій машині, повнні бути встановлені:
 
-- [Docker][docker]
-- [Docker Compose][docker-compose]
-- [Node.js][node-js]
+- Docker
+- Docker Compose
+- Node.js
+
 
 ### Запуск
 

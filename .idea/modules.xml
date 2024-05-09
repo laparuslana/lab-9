@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/EFK-stack.iml" filepath="$PROJECT_DIR$/.idea/EFK-stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/efk.iml" filepath="$PROJECT_DIR$/.idea/efk.iml" />
     </modules>
   </component>
 </project>
