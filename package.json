@@ -1,25 +1,11 @@
 {
   "name": "efk-stack",
   "version": "1.0.0",
-  "description": "A sample environment running an [EFK stack][efk] on your local machine.",
-  "main": "index.js",
-  "directories": {
-    "example": "examples"
-  },
+  "description": "A sample environment running an EFK stack on your local machine.",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vtatarin/EFK-stack.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vtatarin/EFK-stack/issues"
-  },
-  "homepage": "https://github.com/vtatarin/EFK-stack#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
     "cookie-parser": "^1.4.6",
@@ -29,3 +15,4 @@
     "uuid": "^9.0.1"
   }
 }
+
