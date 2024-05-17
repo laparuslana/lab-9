@@ -21,6 +21,11 @@
   },
   "homepage": "https://github.com/vtatarin/EFK-stack#readme",
   "dependencies": {
-    "fluent-logger": "^3.4.1"
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "fluent-logger": "^3.4.1",
+    "on-finished": "^2.4.1",
+    "uuid": "^9.0.1"
   }
 }

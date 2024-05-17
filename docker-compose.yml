@@ -29,3 +29,21 @@ services:
       discovery.type: "single-node"
     ports:
       - "5601:5601"
+
+  app:
+    build: .
+    ports:
+      - '3000:3000'
+    environment:
+      - PORT=3000
+    depends_on:
+      - fluentd
+      - elasticsearch
+      - kibana
+
+  frontend:
+    image: nginx:latest
+    volumes:
+      - ./frontend:/usr/share/nginx/html
+    ports:
+      - '3001:3000'

@@ -36,6 +36,6 @@ Kibana відкрита на порту `5601`.
 
 ### Застосунок
 
-Запустіть `npm init -y` і вставте наступне в index.js.
+Запустіть `npm init -y`.
 
-Встановіть логгер командою  `npm install fluent-logger` та запустыть застосунок `node index.js`.
+Встановіть логгер командою  `npm install fluent-logger` та запустіть застосунок `node index.js`.
